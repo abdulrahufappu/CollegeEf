@@ -29,6 +29,7 @@ namespace CollegeApp.Controllers
         {
             return View();
         }
+        // post
         [HttpPost]
         public ActionResult Create(CourseViewModel model)
         {
